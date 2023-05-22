@@ -296,11 +296,16 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "https://v2api.free-sss.com/sub?" }],
         remoteConfig: [
           {
             label: "universal",
             options: [
+              {
+                label: "my",
+                value:
+                  "https://ip.cvc.cx/clash/ACL4SSR.ini"
+              },
               {
                 label: "No-Urltest",
                 value:
